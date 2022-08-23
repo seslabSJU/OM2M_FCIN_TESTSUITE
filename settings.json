@@ -1,0 +1,49 @@
+{
+    "serial": {
+        "port": "COM6",
+        "number": 9600
+    },
+    "url": "http://20.214.226.173:8080/~/in-cse/in-name/SDT_IPE",
+    "headers" : {
+        "Accept": "application/json",
+        "X-M2M-RI": "unknownRI",
+        "X-M2M-Origin": "admin:admin",
+        "Content-Type": "application/vnd.onem2m-res+json; ty=28"
+    },
+    "body" : {
+        "CREATE" : {
+            "devLt" : {
+                "hd:devLt": {
+                    "rn": "Light",
+                    "cnd": "org.onem2m.home.device.deviceLight",
+                    "lbl": "device Light flexContainer"
+                }
+            },
+            "binSh" : {
+                "hd:binSh": {
+                    "rn": "Switch",
+                    "cnd": "org.onem2m.home.moduleclass.binarySwitch",
+                    "lbl": "binary Switch flexContainer"
+                }
+            },
+            "color" : {
+                "hd:color": {
+                    "rn": "Color",
+                    "cnd": "org.onem2m.home.moduleclass.colour",
+                    "lbl": "colour flexContainer",
+                    "mni": 5
+                }
+            }
+        },
+        "UPDATE" : {
+            "color" : {
+                "hd:color": {
+                    "mni": 5,
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0
+                }
+            }
+        }
+    }
+}
