@@ -1,6 +1,6 @@
 # OM2M_FCIN_TESTSUITE
-Test code for OM2M_FCIN_TESTSUITE
-![](img/om2m.png)
+Test code for OM2M_FCIN_TESTSUITE<br>
+<img src="img/om2m.png"  width="30%" height="30%">
 
 
 
