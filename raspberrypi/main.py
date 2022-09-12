@@ -16,19 +16,21 @@ def setColor(json, r, g, b):
 
 
 if __name__ == "__main__":
-    body = jm.get_secret("body")["UPDATE"]["color"]
+    colorbody = jm.get_secret("body")["UPDATE"]["color"]
+    binShbody = jm.get_secret("body")["UPDATE"]["binSh"]
     setting.settingFlexContainer()
     input("Enter for continue...")
     while True:
         read = interact.readSerial()
         if read[0] == "U":
-            if read == "U Red":
-                setColor(body["hd:color"], 255, 0, 0)
-            elif read == "U Green":
-                setColor(body["hd:color"], 0, 255, 0)
-            elif read == "U Blue":
-                setColor(body["hd:color"], 0, 0, 255)
-            onem2m.updateFlexContainer(body, "/Light/Color")
+            binShbody["hd:binSh"]["powerSe"] = True
+            onem2m.updateFlexContainer(binShbody, "/Light/Switch")
+            if read == "U Red": setColor(colorbody["hd:color"], 255, 0, 0)
+            elif read == "U Green": setColor(colorbody["hd:color"], 0, 255, 0)
+            elif read == "U Blue": setColor(colorbody["hd:color"], 0, 0, 255)
+            onem2m.updateFlexContainer(colorbody, "/Light/Color")
+            binShbody["hd:binSh"]["powerSe"] = False
+            onem2m.updateFlexContainer(binShbody, "/Light/Switch")
             print("Update LED Color")
         elif read[0] == "R":
             res = json.loads(onem2m.retrieveFlexContainer("/Light/Color"))
