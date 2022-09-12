@@ -5,7 +5,7 @@ Test code for OM2M_FCIN_TESTSUITE<br>
 
 
 ## Introduction
-OM2M IoT platform that follows oneM2M(ref. [http://www.onem2m.org]http://www.onem2m.org) standard
+OM2M IoT platform that follows oneM2M(ref. http://www.onem2m.org) standard
 
     git clone https://github.com/seslabSJU/OM2M_FCIN_TESTSUITE
 
