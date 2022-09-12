@@ -43,6 +43,11 @@
                     "green": 0,
                     "blue": 0
                 }
+            },
+            "binSh" : {
+                "hd:binSh": {
+                    "powerSe": true
+                }
             }
         }
     }
