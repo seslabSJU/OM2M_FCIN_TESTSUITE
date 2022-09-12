@@ -20,14 +20,14 @@ ready your arduino UNO board, raspberrypi and OM2M platform
 <img src="img/logical.png"  width="50%" height="50%">
 ### physical
 <img src="img/physical.png"  width="50%" height="50%">
-### real Test Environment
+### Test Environment
 <img src="img/testenv.png"  width="50%" height="50%">
 
 
 
 ## Setting for arduino
 ready your arduino UNO board and build up circuit board like picture below and then upload [arduino.ino](arduino/arduino.ino) file
-<img src="img/circuit.png"  width="70%" height="70%">
+<img src="img/circuit.png"  width="50%" height="50%">
 
 
 
