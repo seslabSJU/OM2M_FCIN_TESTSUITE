@@ -1,8 +1,10 @@
 # ![](img/om2m.png)
 
 
+
 # OM2M_FCIN_TESTSUITE
 Test code for OM2M_FCIN_TESTSUITE
+
 
 
 ## Introduction
@@ -24,10 +26,8 @@ ready your arduino UNO board, raspberrypi and OM2M platform
 
 
 ## Setting for arduino
-ready your arduino UNO board and build up circuit board like picture below
-![](img/circuit.png)
-
-and then upload [arduino.ino](arduino/arduino.ino) file
+ready your arduino UNO board and build up circuit board like picture below and then upload [arduino.ino](arduino/arduino.ino) file
+<img src="img/circuit.png"  width="70%" height="70%">
 
 
 
