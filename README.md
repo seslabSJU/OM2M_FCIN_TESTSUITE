@@ -1,8 +1,5 @@
-# ![](img/om2m.png)
-
-
-
 # OM2M_FCIN_TESTSUITE
+![](img/om2m.png)
 Test code for OM2M_FCIN_TESTSUITE
 
 
