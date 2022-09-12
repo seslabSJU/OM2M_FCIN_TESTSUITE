@@ -16,10 +16,13 @@ OM2M IoT platform that follows oneM2M(ref. [http://www.onem2m.org]http://www.one
 
 ## Setting highlevel architecture
 ready your arduino UNO board, raspberrypi and OM2M platform
+
 ### logical
 <img src="img/logical.png"  width="50%" height="50%">
+
 ### physical
 <img src="img/physical.png"  width="50%" height="50%">
+
 ### Test Environment
 <img src="img/testenv.png"  width="50%" height="50%">
 
